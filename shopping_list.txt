@@ -1,5 +1,6 @@
 eggs x 2
 bread x 2
 ham x 2
-milk x 2
+jam x 2
 soup x 2
+toast x 2
