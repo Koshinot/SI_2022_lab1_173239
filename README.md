@@ -1,1 +1,1 @@
-# SI_2022_lab1_173239
+Hristijan Koshinov 173239
