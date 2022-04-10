@@ -1,0 +1,25 @@
+1. Imam instalirano git i imam svoj profil.
+2. Go promeniv imeto na glavnata granka vo master.
+3. Kreirav odaleceno repo so imeto SI_2022_lab1_173239.
+4. Go klonirav odalecenoto repo na mojot kompjuter so komandata git clone https://github.com/Koshinot/SI_2022_lab1_173239
+5. So nano shopping_list.txt kreirav txt fajl vo koja dodadov 5 proizvodi, potoa so git add . go stejdzirav fajlot i so git commit -m "Add 5 items to the shopping list" go komitnav.
+6. So nano shopping_list.txt go otvoriv txt fajlot dodadov broj, potoa so git add . go stejdzirav i so git commit -m "Add quantities to the items" go komitnav.
+7. So git checkout -b branch1 i git checkout -b branch2 kreirav 2 granki.
+8. So nano 173239.txt kreirav txt fajl vo koj ja vodam dokumentacijata.
+9. Se prefrliv na master so git checkout master i so git push ja sinhronizirav master grankata odnosno pushnav na github.
+	-So git checkout branch1 se preflriv na grankata branch1 i so git push -u origin branch1 ja pushnav grankata na github.
+	-So git checkout branch2 se prefrliv na grankata branch2 i so git push -u origin branch2 ja pushnav grankata na github.
+	-Mora da se korist -u vo git push -u origin branch1/2 koga se pushnuva novo kreirana granka.
+10. So git checkout branch1 se prefrlam na grankata1.
+11. So nano shopping_list.txt go otvaram txt fajlot menuvam kolicina na stavka 5 pravam git add . i git commit -m "Chgane quantity to item #5"
+12. So git checkout master se prefrlam na master.
+13. So nano shoppping_list.txt go otvarm txt fajlot menuvam kolicina na stavka 2 pravam git add . i git commit -m "Change quantity to item #2"
+14. So git push gi pushnuvam promenite na master, git checkout branch1 se prefrlam na granka 1 i git push gi pushnuvam promenite od granka1.
+15. So git checkout branc2 se prefrluvam na granka2.
+16. So nano shopping_list.txt go otvaram txt fajlot go menuvam imeto na stavka 4 pravam git add . i git commit -m "Modify item #4"
+17. So nano 173239.txt vnesuvam vo dokumentacijata.
+18. So nano shopping_list.txt go otvaram txt fajlot dodavam 6ta stavka i pravam git add . i git commit --amend kade ja menuvam poslednata git commit poraka.
+19. So nano 173239.txt vnesuvam vo dokumetacijata.
+20. So git checkout master se prefrlam na master i so git merge branch1 ja mergnuvam grankat branch1 ko master.
+21. So git merge branch2 ja mergnuvam grankata branch2 kon master no ima konflikt. Konfliktot go reshavam taka shto go otvaram shopping_list.txt i gi dodavam promenite sho se na master.
+Tako shto pravam nano shopping_list.txt, gi stavam promenite shto se na master pa git add . i na kraj git commit -m "Merged changes from master"
